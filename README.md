@@ -51,6 +51,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 #### Do replacement on all lines except line 5
 `sed '5!/s/foo/bar/' file.txt`
+`sed '5!s/foo/bar/' test.txt`
 
 #### Do replacement on lines matching regex (eg: lines starting with 'hello')
 `sed '/^hello/ s/h/H/' file.txt ` 
